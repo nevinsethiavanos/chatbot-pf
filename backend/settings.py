@@ -45,7 +45,7 @@ class _UiSettings(BaseSettings):
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Welcome to the Avanos Helpdesk Chatbot"
-    chat_description: str = "This is the avanos chatbot with correct photos and names."
+    chat_description: str = "This chatbot assists with troubleshooting, creating serviceNow tickets, reviewing ticket status, and placing orders!"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
